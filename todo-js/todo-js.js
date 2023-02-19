@@ -73,5 +73,4 @@ const createIncompleteList = (text) => {
   document.getElementById("incomplete-list").appendChild(div);
 }
 
-document.getElementById("add-button")
-  .addEventListener("click", () => onClickAdd());
+document.getElementById("add-button").addEventListener("click", () => onClickAdd());
